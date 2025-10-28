@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Showcase Hub — Achievements</title>
+  <link rel="stylesheet" href="../styles/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Achievements</h1>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="profile.html">Profile</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="achievements.html" aria-current="page">Achievements</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="grid">
+      <article class="card">
+        <h3>Hackathon Finalist</h3>
+        <p>Recognized for building an innovative prototype in 24 hours.</p>
+      </article>
+      <article class="card">
+        <h3>Certification</h3>
+        <p>Completed a front-end web development certification.</p>
+      </article>
+      <article class="card">
+        <h3>Volunteer Work</h3>
+        <p>Organized coding workshops for high school students.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© <span id="year"></span> Showcase Hub</small>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
