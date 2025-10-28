@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Student Portfolio</title>
+  <link rel="stylesheet" href="../styles/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Student Portfolio</h1>
+    <p class="tagline">Student Portfolio Showcase</p>
+    <nav class="nav">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="profile.html">Profile</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="achievements.html">Achievements</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>About Team</h2>
+      <p>
+        We are a team of five collaborating to build a clean, responsive
+        multi‑page portfolio site. Explore profiles, projects, skills, and
+        achievements using the navigation links above.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© <span id="year"></span> Showcase Hub</small>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
