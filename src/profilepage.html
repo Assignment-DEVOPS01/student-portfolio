@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Showcase Hub — Profile</title>
+  <link rel="stylesheet" href="../styles/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Profile</h1>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="profile.html" aria-current="page">Profile</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="achievements.html">Achievements</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="profile">
+      <img src="https://via.placeholder.com/240x240.png?text=Photo" alt="Student photo" class="profile-photo" />
+      <div>
+        <h2>Fahad Azhar</h2>
+        <p class="muted">Software Enginnering Undergraduate</p>
+        <p>
+          Passionate about web development, problem solving, and continuous
+          learning. Interested in frontend frameworks, accessibility, and
+          performance.
+        </p>
+        <h3>Education</h3>
+        <ul>
+          <li>BS Software Enginnering — University (2022–2026)</li>
+          <li>Intermediate — College (2019–2021)</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© <span id="year"></span> Student Portfolio</small>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
