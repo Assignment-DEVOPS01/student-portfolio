@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Showcase Hub — Skills</title>
+  <link rel="stylesheet" href="../styles/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Skills</h1>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="profile.html">Profile</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html" aria-current="page">Skills</a>
+      <a href="achievements.html">Achievements</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Technical Skills</h2>
+      <table class="skills-table">
+        <thead>
+          <tr>
+            <th>Skill</th>
+            <th>Proficiency</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML/CSS</td>
+            <td>Advanced</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Intermediate</td>
+          </tr>
+          <tr>
+            <td>Git/GitHub</td>
+            <td>Intermediate</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Soft Skills</h2>
+      <ul class="list">
+        <li>Communication — Advanced</li>
+        <li>Teamwork — Advanced</li>
+        <li>Time Management — Intermediate</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© <span id="year"></span> Showcase Hub</small>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
